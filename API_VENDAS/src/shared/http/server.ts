@@ -1,4 +1,5 @@
-import express, { NextFunction, Request, Response } from 'express';
+import 'reflect-metadata';
+import express, { Request, Response } from 'express';
 import cors from 'cors';
 
 import routes from './routes';
